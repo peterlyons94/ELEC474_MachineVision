@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lab2_Prelab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Lab2_Prelab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:\opencv\build\include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_calib3d242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_contrib242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_core242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_features2d242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_flann242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_gpu242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_highgui242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_imgproc242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_legacy242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_ml242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_nonfree242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_objdetect242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_photo242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_stitching242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_ts242.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_video242.dll.a" />
+					<Add library="C:\opencv\build\x86\mingw\lib\libopencv_videostab242.dll.a" />
+					<Add directory="C:\opencv\build\x86\mingw\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Lab2_Prelab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
